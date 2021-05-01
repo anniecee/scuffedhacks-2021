@@ -261,3 +261,6 @@ input {
   font-weight: 400;
   color: gray;
 }
+h1 {
+  text-align: center;
+}
