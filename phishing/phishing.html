@@ -1,0 +1,174 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Final - Gmail Clone</title>
+    <link rel="stylesheet" href="MCstyles.css">
+  </head>
+  <body>
+
+
+    <!-- multiple choice -->
+<div class="container-MC container mt-sm-5 my-1">
+    <div class="question ml-sm-5 pl-sm-5 pt-2">
+        <div class="py-2 h5"><b>Should the player:</b></div>
+        <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+            <label class="options">A) Click the link and login, I need my account back! <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+            <label class="options">B) I'm unsure, share the email with a friend to confirm it's real <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+            <label class="options">C) Journalist or Activist C) Report and delete the email, continue browsing<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        </div>
+    </div>
+    <div class="d-flex align-items-center pt-3">
+        <div id="prev"> <button class="btn btn-primary">Previous</button> </div>
+        <div class="ml-auto mr-sm-5"> <button class="btn btn-success">Next</button> </div>
+    </div>
+</div>
+
+
+
+    <!-- Gmail -->
+    <div class="container">
+
+
+
+    <!-- Header Starts -->
+    <div class="header " styles="border-color:black;">
+      <div class="header__left">
+        <span class="material-icons"> menu </span>
+        <img
+          src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"
+          alt=""
+        />
+      </div>
+
+      <div class="header__middle">
+        <span class="material-icons"> search </span>
+        <input type="text" placeholder="Search mail" />
+        <span class="material-icons"> arrow_drop_down </span>
+      </div>
+
+      <div class="header__right">
+        <span class="material-icons"> apps </span>
+        <span class="material-icons"> notifications </span>
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main__body">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar__compose"><span class="material-icons"> add </span>Compose</button>
+        <div class="sidebarOption sidebarOption__active">
+          <span class="material-icons"> inbox </span>
+          <h3>Inbox</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> star </span>
+          <h3>Starred</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> access_time </span>
+          <h3>Snoozed</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> label_important </span>
+          <h3>Important</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> near_me </span>
+          <h3>Sent</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> note </span>
+          <h3>Drafts</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> expand_more </span>
+          <h3>More</h3>
+        </div>
+
+        <div class="sidebar__footer">
+          <div class="sidebar__footerIcons">
+            <span class="material-icons"> person </span>
+            <span class="material-icons"> duo </span>
+            <span class="material-icons"> phone </span>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Email List Starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailList__settings">
+          <div class="emailList__settingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons"> arrow_drop_down </span>
+            <span class="material-icons"> redo </span>
+            <span class="material-icons"> more_vert </span>
+          </div>
+          <div class="emailList__settingsRight">
+            <span class="material-icons"> chevron_left </span>
+            <span class="material-icons"> chevron_right </span>
+            <span class="material-icons"> keyboard_hide </span>
+            <span class="material-icons"> settings </span>
+          </div>
+        </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+        <div class="emailList__sections">
+          <div class="section section__selected">
+            <span class="material-icons"> inbox </span>
+            <h4>Primary</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> people </span>
+            <h4>Social</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> local_offer </span>
+            <h4>Promotions</h4>
+          </div>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
+        <div class="emailList__list">
+          
+
+            <div class="emailRow_options">
+                email shown here
+            </div>
+           
+
+
+        </div>
+        <!-- Email List rows Ends -->
+      </div>
+      <!-- Email List Ends -->
+    </div>
+    <!-- Main Body Ends -->
+  </body>
+
+<!-- end of Gmail -->
+    </div> 
+
+
+</html>
