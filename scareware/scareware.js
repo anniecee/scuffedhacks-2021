@@ -1,4 +1,5 @@
 function displayAnswer() {
+    console.log("working");
     if (document.getElementById('op-a').checked) {
         document.getElementById('result').style.color = 'red'
         document.getElementById('result').innerHTML = 'Wrong!'
@@ -13,5 +14,4 @@ function displayAnswer() {
         document.getElementById('result').style.color = 'red'
         document.getElementById('result').innerHTML = 'Wrong!'
     }
-
 }
