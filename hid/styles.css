@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  background-color: bisque;
+  position: fixed;
+  bottom: 0;
+  float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
