@@ -20,18 +20,23 @@
     <div class="center"><img src="browser-window.png" style="height: 500px;></div>
 
     <!-- multiple choice -->
-    <div class="container-MC container mt-sm-5 my-1">
+    <div style='transform: scale(0.65); position: relative; top: -100px;'  class="container-MC container mt-sm-5 my-1">
         <div class="question ml-sm-5 pl-sm-5 pt-2">
+
             <div class="py-2 h5"><b>Should the player:</b></div>
-            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
-                <label class="options">A) Follow the directions on the screen <input type="radio" name="radio"> <span class="checkmark"></span> </label>
-                <label class="options">B) Close the tab and return <input type="radio" name="radio"> <span class="checkmark"></span> </label>
-                <label class="options">C) Option 3 <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+
+            <div id="options" class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3">
+                <label class="options">A) Follow the directions on the screen <input id=op-a value="A" type="radio" name="option"> <span class="checkmark"></span> </label>
+                <label class="options" value="B">B) Close the tab and return <input id=op-b value="B" type="radio" name="option"> <span class="checkmark"></span> </label>
+                <label class="options" value="C">C) Option 3 <input id=op-c value="C" type="radio" name="option"> <span class="checkmark"></span> </label>
             </div>
+
+            <div id="result"></div>
+
         </div>
         <div class="d-flex align-items-center pt-3">
             <div id="prev"> <button class="btn btn-primary">Previous</button> </div>
-            <div class="ml-auto mr-sm-5"> <button class="btn btn-success">Submit</button> </div>
+            <div class="ml-auto mr-sm-5"><button class="btn btn-success" onclick="displayAnswer()">Submit</button></div>
         </div>
     </div>
 
@@ -43,7 +48,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    <script src="/scareware/scareware.js"></script>
 </body>
 
 </html>
