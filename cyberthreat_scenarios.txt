@@ -1,19 +1,36 @@
 Phishing:
-	-user receives an email stating that they're locked out of their account
+	-fraudulent emails that attempt to trick users into giving away sensitive information
 	-may have poor grammar/spelling
 	-greeting contains a general noun (ex. dear mr/ms/customer)
 	-requests user to login in thorugh link inlcuded in email
+
+	Scenario: Player receives an email stating that
+	Should the player: A) plug it into their computer
+					   B) leave it where it is
+					   C) Return it to lost and found
+					   D) Ask someone to help check its contents
+
 
 Scareware:
 	-threatening message alerting user of viruses, errors, etc.
 	-induces fear and panic in user to follow instructions provided
 	-utilizes bold lettering/colour choices to suit panic theme
 	-may include comapny logos like Google's to gain user's trust
+
+	Scenario: PLayer is redirected to a new tab "alerting" the user that multiple viruses have been detected. 
+	Should the player: A) follow the directions on screen
+					   B) close the tab and return
 	
 Human interface device (HID) spoofing:
 	-an unknown USB stick is found and plugged into a device
 	-the USB stick mimics a keyboard and executes prewritten scripts
 	-enables remote access priviliges onto device
+
+	Scenario: Player is shown a random USB someone may have left behind. 
+	Should the player: A) plug it into their computer
+					   B) leave it where it is
+					   C) Return it to lost and found
+					   D) Ask someone to help check its contents
 
 Man-in-the-middle (MiM) attack:
 	-User connects to an unsecure public Wi-Fi
