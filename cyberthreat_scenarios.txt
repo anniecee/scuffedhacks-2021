@@ -1,0 +1,23 @@
+Phishing:
+	-user receivesan email stating that they're locked out of their account
+	-may have poor grammar/spelling
+	-greeting contains a general noun (ex. dear mr/ms/customer)
+	-requests user to login in thorugh link inlcuded in email
+
+Scareware:
+	-threatening message alerting user of viruses, errors, etc.
+	-induces fear and panic in user to follow instructions provided
+	-utilizes bold lettering/colour choices to suit panic theme
+	-may include comapny logos like Google's to gain user's trust
+	
+Human interface device (HID) spoofing:
+	-an unknown USB stick is found and plugged into a device
+	-the USB stick mimics a keyboard and executes prewritten scripts
+	-enables remote access priviliges onto device
+
+Man-in-the-middle (MiM) attack:
+	-User connects to an unsecure public Wi-Fi
+	-while browsing on unsecured connection, attackers are able to view your activity
+	-passwords, usernames, personal info could be intercepted
+	
+
