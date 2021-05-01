@@ -4,11 +4,12 @@ Phishing:
 	-greeting contains a general noun (ex. dear mr/ms/customer)
 	-requests user to login in thorugh link inlcuded in email
 
-	Scenario: Player receives an email stating that
-	Should the player: A) plug it into their computer
-					   B) leave it where it is
-					   C) Return it to lost and found
-					   D) Ask someone to help check its contents
+	Scenario: Player receives an email stating that they have been locked out of their Facebook account. They are
+			  directed to follow the link and log into their account.
+
+	Should the player: A) Click the link and login, I need my account back!
+					   B) I'm unsure, share the email with a friend to confirm it's real
+					   C) Report and delete the email, continue browsing
 
 
 Scareware:
@@ -17,24 +18,34 @@ Scareware:
 	-utilizes bold lettering/colour choices to suit panic theme
 	-may include comapny logos like Google's to gain user's trust
 
-	Scenario: PLayer is redirected to a new tab "alerting" the user that multiple viruses have been detected. 
-	Should the player: A) follow the directions on screen
-					   B) close the tab and return
+	Scenario: In a new tab, player is alerted by Google that multiple viruses have been detected. 
+
+	Should the player: A) Follow the directions on screen
+					   B) Close the tab and return
 	
 Human interface device (HID) spoofing:
 	-an unknown USB stick is found and plugged into a device
 	-the USB stick mimics a keyboard and executes prewritten scripts
 	-enables remote access priviliges onto device
 
-	Scenario: Player is shown a random USB someone may have left behind. 
-	Should the player: A) plug it into their computer
-					   B) leave it where it is
-					   C) Return it to lost and found
-					   D) Ask someone to help check its contents
+	Scenario: Player discovers a random USB someone may have left behind. 
+
+	Should the player: A) Check to make sure nothing important is on it, plug it into their computer
+					   B) This isn't mine, leave it where it is
+					   C) Take it somewhere safer, return it to lost and found
+					   D) Maybe there's something imporant on it, ask someone to help check its contents
 
 Man-in-the-middle (MiM) attack:
 	-User connects to an unsecure public Wi-Fi
 	-while browsing on unsecured connection, attackers are able to view your activity
 	-passwords, usernames, personal info could be intercepted
+
+	Scenario: Player enters a local coffee shop and is looking for public WiFi. They see a connection that has the 
+			  name of the coffee shop.
+			  
+	Should the player: A) Ignore it, I don't remember this place having free WiFi
+					   B) It has a shop's name as the connection, connect and browse away
+					   C) Check with the shop to make sure they provide public WiFi
+
 	
 
