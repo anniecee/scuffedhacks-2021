@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* Header */
 .header__left img {
   object-fit: contain;
@@ -133,18 +138,16 @@
 /* main body */
 .main__body {
   display: flex;
-  height: 100vh;
+  height: 100px;
 }
 
 body {
   height: 100vh;
-  overflow-y: hidden;
 }
 
 /* email list */
 .emailList {
   flex: 1;
-  overflow: scroll;
 }
 
 .emailList__settings {
@@ -243,8 +246,6 @@ input {
 .emailRow__message h4 {
   width: 400px;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding-left: 5px;
   padding-right: 5px;
 }
