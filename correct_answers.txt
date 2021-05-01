@@ -1,0 +1,64 @@
+RESPONSES
+
+Phishing:
+A) Don't click on any links or files!
+   Phishing emails trick users into following links or downloading malware within files.
+   They often mimic messages sent to you by mistake or by real companies like Microsoft. Check
+   for misspelling, poor grammar, attached files, and random links to unknown sites.
+
+B) Don't spread the email! You might put others at risk.
+   Phishing emails trick users into following links or downloading malware within files. They often
+   mimic messages sent to you by mistake or by real companies like Microsoft. Check for misspelling,
+   poor grammar, attached files, and random links to unknown sites.
+
+C) Correct!
+   Phishing emails trick users into following links or downloading malware within files.
+   They often mimic messages sent to you by mistake or by real companies like Microsoft. Check
+   for misspelling, poor grammar, attached files, and random links to unknown sites.
+
+
+Scareware:
+A) Hold on...take a deep breath.
+   Scareware will trick victims into feeling panicked and out of options. The page often displays
+   a warning with bright colours, bold text, and a company logo to gain your trust. Close the page and
+   leave the site that gave it to you.
+
+B) Correct!
+   Scareware will trick victims into feeling panicked and out of options. The page often displays
+   a warning with bright colours, bold text, and a company logo to gain your trust. Close the page and
+   leave the site that gave it to you.
+
+HID:
+A) Wait! Unknown USBs should stay away from your computer.
+   Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in,
+   the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have
+   access to your computer without being in the same room.
+
+B) Good thinking, but you could help others from plugging it in.
+   Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in,
+   the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have
+   access to your computer without being in the same room.
+
+C) Correct! Don't plug it in and keep it away from curious hands.
+   Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in,
+   the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have
+   access to your computer without being in the same room.
+
+D) Stop! you might put someone's computer at risk.
+   Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in,
+   the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have
+   access to your computer without being in the same room.
+
+
+Phishing:
+A) Correct!
+   Connecting to unverified free WiFi might actually be a trap setup by attackers in order to monitor your
+   online activity. Staying on these WiFi traps allows passwords and personal information to be grabbed.
+   Check with stores and shops to ensure they are the ones providing free WiFi. Even if you are on a trusted
+   public network, try not to type passwords and sensitive information.
+
+B) Pause!
+   Connecting to unverified free WiFi might actually be a trap setup by attackers in order to monitor your
+   online activity. Staying on these WiFi traps allows passwords and personal information to be grabbed.
+   Check with stores and shops to ensure they are the ones providing free WiFi. Even if you are on a trusted
+   public network, try not to type passwords and sensitive information.
