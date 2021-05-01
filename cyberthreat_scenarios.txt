@@ -1,5 +1,5 @@
 Phishing:
-	-user receivesan email stating that they're locked out of their account
+	-user receives an email stating that they're locked out of their account
 	-may have poor grammar/spelling
 	-greeting contains a general noun (ex. dear mr/ms/customer)
 	-requests user to login in thorugh link inlcuded in email
