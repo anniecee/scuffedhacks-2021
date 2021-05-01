@@ -1,45 +1,48 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
+﻿<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Scareware</title>
-
-	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Scareware</title>
+    <link rel="stylesheet" href="MCstyles.css">
 </head>
 
 <body>
-    <h1></h1>
 
-    <div class="jumbotron">
-        <div class="alert alert-danger" role="alert">Warning! Your computer is blocked!</div>
-        <div><img src="browser-window.png" style="height:500px;></div>
-    </div>
-
-    </div>
-    <h3>What will you do?</h3>
-    <div class="btn-group-vertical" role="group" aria-label="...">
-        <button type="button" class="btn btn-default">Follow the directions on the screen</button>
-        <button type="button" class="btn btn-default">Close the tab and return</button>
-        <button type="button" class="btn btn-default">Option 3</button>
-    </div>
+    <!-- browser -->
+    <h1>Round 2: Scareware</h1>
 
     <div>
+        <div>
+            <div class="alert alert-danger" role="alert">Warning! Your computer is blocked!</div>
+            <div><img src="browser-window.png" style="height: 200px;></div>
+        </div>
 
+        <!-- multiple choice -->
+        <div class="container-MC container mt-sm-5 my-1">
+            <div class="question ml-sm-5 pl-sm-5 pt-2">
+                <div class="py-2 h5"><b>Should the player:</b></div>
+                <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options">
+                    <label class="options">A) Follow the directions on the screen <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+                    <label class="options">B) Close the tab and return <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+                    <label class="options">C) Option 3 <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+                </div>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+                <div id="prev"> <button class="btn btn-primary">Previous</button> </div>
+                <div class="ml-auto mr-sm-5"> <button class="btn btn-success">Next</button> </div>
+            </div>
+        </div>
     </div>
 
 
-
-
-    <div>
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+   
 </body>
+
+
 </html>
-    
