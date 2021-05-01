@@ -14,4 +14,9 @@ function displayAnswer() {
         document.getElementById('result').style.color = 'red'
         document.getElementById('result').innerHTML = 'Wrong!'
     }
+	
+	if (document.getElementById('op-d').checked) {
+        document.getElementById('result').style.color = 'red'
+        document.getElementById('result').innerHTML = 'Wrong!'
+    }
 }
