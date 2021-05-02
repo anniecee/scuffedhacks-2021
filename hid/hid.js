@@ -4,7 +4,7 @@ function displayAnswer()
     if (document.getElementById('op-a').checked) 
 	{
         document.getElementById('result').style.color = 'red'
-		document.getElementById('result').innerHTML = "Wrong! "
+		document.getElementById('result').innerHTML = "Incorrect! "
         document.getElementById('explination').innerHTML = "Unknown USBs should stay away from your computer. " + 
 													   "Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in, " + 
 													   "the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have" + 
@@ -15,7 +15,7 @@ function displayAnswer()
     if (document.getElementById('op-b').checked) 
 	{
         document.getElementById('result').style.color = 'red'
-		document.getElementById('result').innerHTML = 'Wrong! '
+		document.getElementById('result').innerHTML = 'Incorrect! '
 		document.getElementById('explination').innerHTML = "Good thinking, but you could help others from plugging it in. " + 
 														   "Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in, " +
 														   "the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have" +
@@ -37,7 +37,7 @@ function displayAnswer()
 	if (document.getElementById('op-d').checked) 
 	{
         document.getElementById('result').style.color = 'red'
-        document.getElementById('result').innerHTML = 'Wrong! '
+        document.getElementById('result').innerHTML = 'Incorrect! '
 		document.getElementById('explination').innerHTML = "You might put someone's computer at risk. " + 
 														   "Seemingly harmless USB drives might actually be dangerous hacking weapons. As soon as you plug it in, " +
 														   "the fake USB is able to mimic a person typing on a keyboard. They are able to allow hackers to have " +
