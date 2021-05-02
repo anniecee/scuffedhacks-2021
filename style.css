@@ -1,4 +1,25 @@
 img {
-  width: 450px;
-  height: 300px;
+  width: 650px;
+  height: 400px;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.column {
+  float: left;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+.img-container {
+  text-align: center;
 }
