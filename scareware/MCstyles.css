@@ -99,3 +99,8 @@
     word-spacing: 2px;
   }
 }
+img {
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+}
