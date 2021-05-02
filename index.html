@@ -17,52 +17,38 @@
 	<div class="container">
 
 
-		<div class="main">
-
-			<div class="row">
-				<div class="col-2 left">
-					<button id="phishing" onmouseover="displayImage(this.id)" onclick = "document.location='phishing/phishing.html'"> 1: Phishing</button>
-				</div>
-				<div class="col middle">
-				</div>
-				<div class="col-2 right">
-					<button id="scareware" onmouseover="displayImage(this.id)" onclick = "document.location='scareware/scareware.html'"> 2: Scareware</button>
-				</div>
-			</div>	
-			<!-- end of row 1 -->
-
-			<div class="row justify-content-between">
-				<div class="col-5 left">
-					<button id="mim" onmouseover="displayImage(this.id)" onclick = "document.location='mim/mim.html'"> 3: Man in the Middle</button>
-				</div>
-				<div class = "col-5 middle img-container" style="border: 1px solid blue;">
-					<!-- SHOW SNAPSHOTS -->
-					<div id="image">
-						<img src="" alt="">
-					</div>
-				</div>
-				<div class="col-2 right">
-					<button id="hid" onmouseover="displayImage(this.id)" onclick = "document.location='hid/hid.html'"> 4: Human Interface Device (Spoofing)</button>
-				</div>
-			</div>	
-
-
-
-		</div>
-		<!-- end of Main -->
 		
 
 
 		<table>
+			<colgroup>
+				<col style="width: 25%;">
+				<col style="width: 60%;">
+				<col style="width: 10%;">
+			</colgroup>
 			<tr>
-				<td><button>1</button></td>
-				<td><button>2</button></td>
-				<td><button>3</button></td>
+				<td>
+					<button class="btn btn-outline-primary" id="phishing" onmouseover="displayImage(this.id)" onclick = "document.location='phishing/phishing.html'"> 1: Phishing</button>
+				</td>
+				<td>
+					<h6>Ready to get hacked</h6>
+				</td>
+				<td>
+					<button class="btn btn-outline-primary" id="mim" onmouseover="displayImage(this.id)" onclick = "document.location='mim/mim.html'"> 3: Man in the Middle</button>
+				</td>
 			</tr>
 			<tr>
-				<td><button>4</button></td>
-				<td><button>5</button></td>
-				<td><button>6</button></td>
+				<td>
+					<button class="btn btn-outline-primary" id="scareware" onmouseover="displayImage(this.id)" onclick = "document.location='scareware/scareware.html'"> 2: Scareware</button>
+				</td>
+				<td>
+					<div id="image">
+						<img src="./screenshots/scuffed.png" style="width: 700px;height: 600px;" alt="">
+					</div>
+				</td>
+				<td>
+                    <button class="btn btn-outline-primary" id="hid" onmouseover="displayImage(this.id)" onclick = "document.location='hid/hid.html'"> 4: Human Interface Device (Spoofing)</button>
+				</td>
 			</tr>
 		</table>
 

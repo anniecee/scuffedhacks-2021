@@ -1,8 +1,10 @@
 img {
-  width: 650px;
+  width: 700px;
   height: 400px;
 }
-
+.btn {
+  color: rgb(66, 138, 167);
+}
 .main {
   border: 1px solid black;
 }
