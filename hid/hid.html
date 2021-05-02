@@ -33,15 +33,17 @@
                 <label class="options">C) Take it somewhere safer, return it to lost and found<input id=op-c type="radio" name="radio"> <span class="checkmark"></span> </label> 
                 <label class="options">D) Maybe there's something imporant on it, ask someone to help check its contents<input id=op-d type="radio" name="radio"> <span class="checkmark"></span> </label> 
             </div>
-            <div class="d-flex align-items-center pt-3">
+            
+			<!-- result --> 
+			<div>
+			   <p id="result"></p>
+			   <p id="explination"></p>
+			</div>
+			<div class="d-flex align-items-center pt-3">
             <div id="prev"> <button class="btn btn-primary" onclick = "document.location='../index.html'">Return</button> </div>
             <div class="ml-auto mr-sm-5"><button class="btn btn-success" onclick="displayAnswer()">Submit</button></div>
            </div>
-           <!-- result -->
-            <div id="result"></div>
-
-            
-        </div>
+		</div>
         <img src="./HDI_attack.png" alt="mim">
     </div>
 

@@ -24,3 +24,7 @@ img {
 h1 {
   text-align: center;
 }
+
+#result,#explanation {
+   font-size: 13px;
+}
